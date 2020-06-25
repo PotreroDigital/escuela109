@@ -3099,7 +3099,7 @@
 		.wrapper.style3 {
 			background-color: #000;
 			color: #bfbfbf;
-			background-image: url(../../images/bg.jpg);
+			background-image: url(../../images/b.jpg);
 			background-size: cover;
 			background-attachment: fixed;
 			background-position: center;
@@ -3372,12 +3372,21 @@
 				z-index: 1;
 			}
 
-			.wrapper.style4 {
-				background-color: #000;
-				color: #bfbfbf;
-				background-image: url(../../images/r9a.jpeg);
+			.wrapper.style5 {
+				background-color: rgba(0, 0, 0, 0.95);
+				color: #;
+				background-image: url(../../images/.jpg);
 				background-size: cover;
 				background-attachment: fixed;
+				background-position: center;
+				position: relative;
+			}
+			.wrapper.style4 {
+				background-color: #000;
+				color: #;
+				background-image: url(../../images/r9a.jpeg);
+				background-size: cover;
+			  background-attachment: fixed;
 				background-position: center;
 				position: relative;
 			}
@@ -3445,7 +3454,7 @@
 					.wrapper.style4 input[type="button"].alt,
 					.wrapper.style4 button.alt,
 					.wrapper.style4 .button.alt {
-						background-color: transparent;
+					 background-color: transparent;
 						box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
 						color: #ffffff !important;
 					}
